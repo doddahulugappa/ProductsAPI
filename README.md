@@ -95,7 +95,7 @@ The REST API to the products app is described below.
 
 ### Request
 
-`PUT /product/id`
+`PUT /products/id`
 
     curl --location --request PUT 'http://localhost:8000/products/1' \
     --header 'Content-Type: application/json' \
@@ -118,8 +118,8 @@ The REST API to the products app is described below.
 
 `DELETE /products/id`
 
-    curl -i -H 'Accept: application/json' -X DELETE http://localhost:7000/thing/1/
-
+    curl --location --request DELETE 'http://localhost:8000/products/3' \
+    --header 'Content-Type: application/json'
 ### Response
 
 
