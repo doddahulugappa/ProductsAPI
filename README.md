@@ -118,7 +118,7 @@ The REST API to the products app is described below.
 
 `DELETE /products/id`
 
-    curl --location --request DELETE 'http://localhost:8000/products/3' \
+    curl --location --request DELETE 'http://localhost:8000/products/1' \
     --header 'Content-Type: application/json'
 ### Response
 
