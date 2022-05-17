@@ -27,7 +27,7 @@ The REST API to the products app is described below.
 
 `GET /products`
 
-    curl -i -H 'Accept: application/json' http://localhost:8000/products/
+    curl -i -H 'Accept: application/json' http://localhost:8000/products
 
 ### Response
     Status: 200 OK
